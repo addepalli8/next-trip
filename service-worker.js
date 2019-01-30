@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/addepalli8/next-trip/precache-manifest.9265e94d4dee23d2db6a902845f137cc.js"
+  "/next-trip/precache-manifest.d69bad885d43f7a0cf9f83bedb10513a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/addepalli8/next-trip/index.html", {
+workbox.routing.registerNavigationRoute("/next-trip/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
